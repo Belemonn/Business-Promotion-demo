@@ -98,13 +98,12 @@
     background-color: transparent;
     border: 1px solid #bcd0e5;
     border-radius: 4px;
-    transition: color, background-color 300ms ease-in-out;
+    transition: background-color 300ms ease-in-out;
   }
 
   .header-btn-sign-in:hover,
   .header-btn-sign-in:focus {
-    background-color: #02897a;
-    color: #fff;
+    background-color: #bcd0e5;
   }
 
   .header-btn-sign-up {
@@ -116,5 +115,11 @@
     border: none;
     color: #fff;
     border-radius: 4px;
+    transition: background-color 300ms ease-in-out;
+  }
+
+  .header-btn-sign-up:hover,
+  .header-btn-sign-up:focus {
+    background-color: #008b8b;
   }
 }
