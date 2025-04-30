@@ -1,44 +1,120 @@
 .header {
-  padding: 20px 0;
+  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 22px 0;
 }
-.nav {
+
+.header .container {
   display: flex;
-  justify-content: space-between;
 }
-.nav-logo {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav-list {
+
+.logo-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  gap: 8px;
 }
-.nav-link {
-  position: relative;
-  display: block;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  transition: 200ms ease-in;
+
+.logo-link {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+  padding-top: 20px;
+  padding-bottom: 22px;
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+
+.menu {
+  display: none;
 }
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(100%);
-  width: 110%;
-  height: 4px;
-  border-radius: 4px;
-  transform-origin: center;
-  animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
+
+.header-btn-list {
+  display: none;
 }
-.nav-link.active::after {
-  background: #747bff;
+
+.menu-btn {
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-icon-btn {
+  fill: #173a56;
+}
+
+@media screen and (min-width: 1110px) {
+  .header {
+    padding: 22px 0;
+    box-shadow: none;
+  }
+
+  .header .container {
+  }
+
+  .logo-list {
+    margin-right: auto;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .menu-item-link {
+    padding: 26px 0;
+    transition: font-weight, font-size 300ms ease-in;
+  }
+
+  .menu-item-link:hover,
+  .menu-item-link:focus {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .header-btn-list {
+    display: flex;
+    margin-left: auto;
+    gap: 21px;
+    align-items: center;
+  }
+
+  .header-btn-item {
+  }
+
+  .header-btn-sign-in {
+    padding: 9px 25px;
+    min-width: 105px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    background-color: transparent;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    transition: color, background-color 300ms ease-in-out;
+  }
+
+  .header-btn-sign-in:hover,
+  .header-btn-sign-in:focus {
+    background-color: #02897a;
+    color: #fff;
+  }
+
+  .header-btn-sign-up {
+    padding: 9px 25px;
+    min-width: 105px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #02897a;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+  }
 }

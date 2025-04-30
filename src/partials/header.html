@@ -1,19 +1,45 @@
 <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+    <ul class="logo-list">
+      <li class="logo-item">
+        <a href="./index.html" class="logo">
+          <svg class="logo-icon" width="40" height="36">
+            <use href="./img/icon/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="logo-item">
+        <a class="logo-link" href="./index.html">Product</a>
+      </li>
+    </ul>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="./index.html" class="menu-item-link">Product </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="menu-item">
+          <a href="./costumers.html" class="menu-item-link">Customers</a>
+        </li>
+        <li class="menu-item">
+          <a href="./pricing.html" class="menu-item-link">Pricing</a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-item-link">Resources</a>
         </li>
       </ul>
     </nav>
+    <ul class="header-btn-list">
+      <li class="header-btn-item">
+        <button type="button" class="header-btn-sign-in">Sign In</button>
+      </li>
+      <li class="header-btn-item">
+        <button type="button" class="header-btn-sign-up">Sign Up</button>
+      </li>
+    </ul>
+    <button class="menu-btn" type="button">
+      <svg class="menu-icon-btn" width="45" height="40">
+        <use href="./img/icon/icons.svg#icon-hero-menu"></use>
+      </svg>
+    </button>
   </div>
 </header>
