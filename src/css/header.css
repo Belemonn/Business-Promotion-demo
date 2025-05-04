@@ -1,6 +1,7 @@
 .header {
   box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
-  padding: 22px 0;
+  padding-top: 20px;
+  padding-bottom: 22px;
 }
 
 .header .container {
@@ -18,8 +19,6 @@
   font-size: 30px;
   line-height: 0.93333;
   color: #173a56;
-  padding-top: 20px;
-  padding-bottom: 22px;
 }
 
 .menu {
@@ -44,6 +43,10 @@
   .header {
     padding: 22px 0;
     box-shadow: none;
+  }
+
+  .logo-link {
+    padding: 20px 0;
   }
 
   .header .container {

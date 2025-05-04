@@ -1,0 +1,62 @@
+.hero {
+  padding-top: 29px;
+  padding-bottom: 50px;
+}
+
+.hero .container {
+  padding: 0 21px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picture-cintainer {
+  margin-bottom: 11px;
+}
+
+.hero-picture {
+  width: 300px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.hero-text-wrap {
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66667;
+  text-align: center;
+  margin-bottom: 16px;
+  max-width: 375px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  text-align: center;
+  margin-bottom: 15px;
+  max-width: 326px;
+}
+
+.hero-btn-list {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-btn-item {
+}
+
+.hero-btn-started {
+}
+
+.hero-btn-watch {
+}
