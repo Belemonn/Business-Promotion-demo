@@ -53,10 +53,16 @@
 }
 
 .hero-btn-item {
+  display: flex;
+  align-items: center;
 }
 
 .hero-btn-started {
 }
 
 .hero-btn-watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
