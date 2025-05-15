@@ -14,7 +14,7 @@
   justify-content: space-between;
 }
 
-.picture-cintainer {
+.picture-container {
   margin-bottom: 11px;
 }
 
@@ -49,7 +49,7 @@
   display: flex;
   gap: 28px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .hero-btn-item {
@@ -58,6 +58,8 @@
 }
 
 .hero-btn-started {
+  max-width: 141px;
+  padding: 14px 24px;
 }
 
 .hero-btn-watch {
